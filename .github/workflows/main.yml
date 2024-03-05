@@ -21,7 +21,6 @@ jobs:
                 cache: "npm"
             - run: npm i
             - run: npm run build
-<<<<<<< HEAD
             
     deploy:
       needs: test-build
@@ -55,6 +54,3 @@ jobs:
                     git restore .;
                     git pull origin main;
                 }
-=======
-             
->>>>>>> 9503df309927c8f802961d9cf8388fc7bf0c4bd4
